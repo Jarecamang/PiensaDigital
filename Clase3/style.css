@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Eater');
+body{
+	background-color: #21375b
+}
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Eater', cursive;
+}
+p{
+	border: 5px solid black;
+	margin: 30px;
+	color: white;
+	font-style: italic;
+}
+.first{
+	font-weight: bold;
+} 
+.second{
+	text-decoration: line-through;
+}
+#polite{
+	font-family: cursive;
+}
+#rude{
+	font-family: monospace;
+	text-transform: uppercase;
+}
+[data-vegetable] {
+	color: green;
+}
+[data-vegetable="liquid"] {
+	background-color: goldenrod; 
+}
+[data-vegetable~="spicy"] {
+	color:red;
+}
+[data-quantity~="kg"] {
+	background-color: red;
+}
+.testOver {
+	padding: 10px;
+	margin: 100px;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 4px solid blue;
+}
+.testOver:visited {
+	color: orange;
+}
+.testOver:hover, .testOver:active, .testOver:focus {
+	background-color: yellow;
+	color: black;
+	border: 4px solid green;
+	font-family: 'Cabin Sketch', cursive;
+}
+.div{
+	margin: 10px;
+	padding: 30px;
+	border: 1px solid;
+	height: 100px;
+	width: 50%;
+}
+.div1{
+	background-color: blue;
+	overflow: hidden;
+	float: left;
+}
+.div2{
+	background-color: red;
+	overflow: visible;
+	float: right;
+}
+.div3{
+	background-color: green;
+	overflow: auto;
+	float: inherit;
+}
+.row{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+.col2{
+	width: 50%;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+.col3{
+	width: 50%;
+	height: 100px;
+	background-color: red;
+	float: right;
+}
